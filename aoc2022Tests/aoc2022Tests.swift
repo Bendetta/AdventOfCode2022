@@ -10,27 +10,48 @@ import XCTest
 
 final class aoc2022Tests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    // MARK: Day 1
+    
+    func test_day1Part1Sample() {
+        let value = day1().runPart1Sample()
+        XCTAssertEqual(value, 24000)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func test_day1Part1Actual() {
+        let value = day1().runPart1Actual()
+        XCTAssertEqual(value, 74394)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func test_day1Part2Sample() {
+        let value = day1().runPart2Sample()
+        XCTAssertEqual(value, 45000)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func test_day1Part2Actual() {
+        let value = day1().runPart2Actual()
+        XCTAssertEqual(value, 212836)
+    }
+    
+    // MARK: Day 2
+    
+    func test_day2Part1Sample() {
+        let value = day2().runPart1Sample()
+        XCTAssertEqual(value, 15)
+    }
+    
+    func test_day2Part1Actual() {
+        let value = day2().runPart1Actual()
+        XCTAssertEqual(value, 12458)
+    }
+    
+    func test_day2Part2Sample() {
+        let value = day2().runPart2Sample()
+        XCTAssertEqual(value, 12)
+    }
+    
+    func test_day2Part2Actual() {
+        let value = day2().runPart2Actual()
+        XCTAssertEqual(value, 12683)
     }
 
 }
