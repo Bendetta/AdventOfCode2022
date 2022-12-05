@@ -53,18 +53,12 @@ enum Input {
     
     struct day3 {
         static let sample = """
-            00100
-            11110
-            10110
-            10111
-            10101
-            01111
-            00111
-            11100
-            10000
-            11001
-            00010
-            01010
+            vJrwpWtwJgWrhcsFMMfFFhFp
+            jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+            PmmdzqPrVvPwwTWBwg
+            wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+            ttgJtRGJQctTZtZT
+            CrZsJsPPZsGzwwsLwLmpwMDw
             """.splitLines()
         
         static let actual = Input.readFile("day3").splitLines()
