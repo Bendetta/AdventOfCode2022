@@ -80,19 +80,18 @@ enum Input {
     
     struct day5 {
         static let sample = """
-0,9 -> 5,9
-8,0 -> 0,8
-9,4 -> 3,4
-2,2 -> 2,1
-7,0 -> 7,4
-6,4 -> 2,0
-0,9 -> 2,9
-3,4 -> 1,4
-0,0 -> 8,8
-5,5 -> 8,2
-""".splitLines()
+    [D]
+[N] [C]
+[Z] [M] [P]
+ 1   2   3
+
+move 1 from 2 to 1
+move 3 from 1 to 3
+move 2 from 2 to 1
+move 1 from 1 to 2
+""".components(separatedBy: "\n\n")
         
-        static let actual = Input.readFile("day5").splitLines()
+        static let actual = Input.readFile("day5").components(separatedBy: "\n\n")
     }
     
     struct day6 {
@@ -416,12 +415,7 @@ v.v..>>v.v
 
 class InputMarker { }
 
-fileprivate extension String {
-    func splitLines() -> [String] {
-        return self.split(whereSeparator: \.isNewline)
-            .compactMap{ $0.trimmingCharacters(in: .whitespacesAndNewlines) }
-    }
-    
+fileprivate extension String {    
     func toIntArray() -> [Int] {
         return self.compactMap { char in Int(String(char)) }
     }

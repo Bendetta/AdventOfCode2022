@@ -7,9 +7,10 @@
 
 import Foundation
 
-protocol Puzzle {
-    func runPart1Sample() -> Int
-    func runPart1Actual() -> Int
-    func runPart2Sample() -> Int
-    func runPart2Actual() -> Int
+protocol Puzzle<T> {
+    associatedtype T
+    func runPart1Sample() -> T
+    func runPart1Actual() -> T
+    func runPart2Sample() -> T
+    func runPart2Actual() -> T
 }
