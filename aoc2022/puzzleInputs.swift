@@ -101,13 +101,33 @@ move 1 from 1 to 2
     }
     
     struct day7 {
-        static let sample = parseInput("16,1,2,0,4,2,7,1,2,14")
+        static let sample = """
+        $ cd /
+        $ ls
+        dir a
+        14848514 b.txt
+        8504156 c.dat
+        dir d
+        $ cd a
+        $ ls
+        dir e
+        29116 f
+        2557 g
+        62596 h.lst
+        $ cd e
+        $ ls
+        584 i
+        $ cd ..
+        $ cd ..
+        $ cd d
+        $ ls
+        4060174 j
+        8033020 d.log
+        5626152 d.ext
+        7214296 k
+        """.splitLines()
         
-        static let actual = parseInput(Input.readFile("day7"))
-        
-        private static func parseInput(_ input: String) -> [Int] {
-            return input.split(separator: ",").map { Int($0.trimmingCharacters(in: .whitespacesAndNewlines))! }
-        }
+        static let actual = Input.readFile("day7").splitLines()
     }
     
     struct day8 {
