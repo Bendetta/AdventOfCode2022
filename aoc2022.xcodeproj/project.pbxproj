@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D285C1E294232EA0029CCC7 /* day8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D285C1D294232EA0029CCC7 /* day8.txt */; };
+		2D285C20294233730029CCC7 /* day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D285C1F294233730029CCC7 /* day8.swift */; };
 		2D84C65E293A505A00FA9A78 /* aoc2022App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84C65D293A505A00FA9A78 /* aoc2022App.swift */; };
 		2D84C660293A505A00FA9A78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84C65F293A505A00FA9A78 /* ContentView.swift */; };
 		2D84C662293A505B00FA9A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D84C661293A505B00FA9A78 /* Assets.xcassets */; };
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D285C1D294232EA0029CCC7 /* day8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day8.txt; sourceTree = "<group>"; };
+		2D285C1F294233730029CCC7 /* day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day8.swift; sourceTree = "<group>"; };
 		2D84C65A293A505A00FA9A78 /* aoc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D84C65D293A505A00FA9A78 /* aoc2022App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc2022App.swift; sourceTree = "<group>"; };
 		2D84C65F293A505A00FA9A78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 				2D84C6A6293E5C5900FA9A78 /* day5.txt */,
 				2D84C6AD293F87D500FA9A78 /* day6.txt */,
 				2D84C6B42940E37A00FA9A78 /* day7.txt */,
+				2D285C1D294232EA0029CCC7 /* day8.txt */,
 			);
 			path = inputs;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				2D84C6A8293E5C8A00FA9A78 /* day5.swift */,
 				2D84C6B2293F90D500FA9A78 /* day6.swift */,
 				2D84C6B62940E39300FA9A78 /* day7.swift */,
+				2D285C1F294233730029CCC7 /* day8.swift */,
 			);
 			path = days;
 			sourceTree = "<group>";
@@ -324,6 +330,7 @@
 				2D84C68F293A51B300FA9A78 /* day1.txt in Resources */,
 				2D84C6AE293F87D500FA9A78 /* day6.txt in Resources */,
 				2D84C692293A51C300FA9A78 /* day2.txt in Resources */,
+				2D285C1E294232EA0029CCC7 /* day8.txt in Resources */,
 				2D84C662293A505B00FA9A78 /* Assets.xcassets in Resources */,
 				2D84C6A3293E48E000FA9A78 /* day4.txt in Resources */,
 				2D84C69C293E3EE800FA9A78 /* day3.txt in Resources */,
@@ -369,6 +376,7 @@
 				2D84C65E293A505A00FA9A78 /* aoc2022App.swift in Sources */,
 				2D84C6A5293E495B00FA9A78 /* day4.swift in Sources */,
 				2D84C6A9293E5C8A00FA9A78 /* day5.swift in Sources */,
+				2D285C20294233730029CCC7 /* day8.swift in Sources */,
 				2D84C6A1293E467C00FA9A78 /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
