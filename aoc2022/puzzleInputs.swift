@@ -144,12 +144,26 @@ move 1 from 1 to 2
     
     struct day9 {
         static let sample = """
-2199943210
-3987894921
-9856789892
-8767896789
-9899965678
+R 4
+U 4
+L 3
+D 1
+R 4
+D 1
+L 5
+R 2
 """.splitLines()
+        
+        static let sampleP2 = """
+        R 5
+        U 8
+        L 8
+        D 3
+        R 17
+        D 10
+        L 25
+        U 20
+        """.splitLines()
         
         static let actual = Input.readFile("day9").splitLines()
     }
