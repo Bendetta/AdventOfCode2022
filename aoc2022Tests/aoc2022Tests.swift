@@ -229,4 +229,26 @@ final class aoc2022Tests: XCTestCase {
         let value = day10().runPart2Actual()
         XCTAssertEqual(value, 0)
     }
+    
+    // MARK: Day 11
+    
+    func test_day11Part1Sample() {
+        let value = day11().runPart1Sample()
+        XCTAssertEqual(value, 10605)
+    }
+    
+    func test_day11Part1Actual() {
+        let value = day11().runPart1Actual()
+        XCTAssertEqual(value, 50830)
+    }
+    
+    func test_day11Part2Sample() {
+        let value = day11().runPart2Sample()
+        XCTAssertEqual(value, 2713310158)
+    }
+    
+    func test_day11Part2Actual() {
+        let value = day11().runPart2Actual()
+        XCTAssertEqual(value, 14399640002)
+    }
 }
