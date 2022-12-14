@@ -399,26 +399,10 @@ abdefghi
     
     struct day14 {
         static let sample = """
-NNCB
-
-CH -> B
-HH -> N
-CB -> H
-NH -> C
-HB -> C
-HC -> B
-HN -> C
-NN -> C
-BH -> H
-NC -> B
-NB -> B
-BN -> B
-BB -> N
-BC -> B
-CC -> N
-CN -> C
-""".components(separatedBy: "\n\n")
-        static let actual = Input.readFile("day14").components(separatedBy: "\n\n")
+498,4 -> 498,6 -> 496,6
+503,4 -> 502,4 -> 502,9 -> 494,9
+""".splitLines()
+        static let actual = Input.readFile("day14").splitLines()
     }
     
     struct day15 {
