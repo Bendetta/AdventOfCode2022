@@ -90,22 +90,6 @@ class day14:  Puzzle {
         return cave
     }
     
-    struct Point: Hashable {
-        let x: Int
-        let y: Int
-        
-        static let zero = Point(x: 0, y: 0)
-        
-        init(x: Int, y: Int) {
-            self.x = x
-            self.y = y
-        }
-        
-        init(_ pair: (Int,Int)) {
-            self.init(x: pair.0, y: pair.1)
-        }
-    }
-    
     class Cave {
         private(set) var particles: [Point: Particle]
         let yBounds: ClosedRange<Int>
